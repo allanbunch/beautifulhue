@@ -10,9 +10,6 @@ setup(
     license='MIT',
     description='A Python module for the Philips Hue Lighting System API.',
     long_description=open('README.txt').read(),
-    install_requires=[
-        "httplib2 >= 0.8",
-    ],
     platforms="Cross Platform",
     classifiers=[
         'Development Status :: 4 - Beta',

@@ -20,7 +20,6 @@ Documentation
 ###Requirements
 
 - Python 2.6+
-- [Python httplib2](https://code.google.com/p/httplib2/)
 
 ###Installation
 
