@@ -1,5 +1,5 @@
 from distutils.core import setup
-from beautifulhue.api import __version__
+from beautifulhue import __version__
 
 setup(
     name='BeautifulHue',

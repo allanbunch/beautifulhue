@@ -1,7 +1,5 @@
 from _portal import Portal
 
-__version__ = '0.1.0'
-
 class Bridge():
     
     def __init__(self, device, user, debug=False):
