@@ -3,5 +3,4 @@ v0.1.0, 2013-06-08:
 	
 v0.1.1, 2013-06-09:
 	-- Removed httplib2 dependency.
-	-- Fixed resource variable scope issue.
 	-- Changed version identifier variable location.
