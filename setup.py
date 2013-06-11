@@ -5,7 +5,7 @@ setup(
     name='BeautifulHue',
     version=__version__,
     author='Allan Bunch',
-    packages=['beautifulhue', 'beautifulhue.api', 'beautifulhue.lib'],
+    packages=['beautifulhue', 'beautifulhue.api', 'beautifulhue.libs'],
     url='https://github.com/allanbunch/beautifulhue',
     license='MIT',
     description='A Python module for the Philips Hue Lighting System API.',

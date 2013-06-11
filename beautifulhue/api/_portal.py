@@ -1,4 +1,4 @@
-from beautifulhue.lib.http import Request
+from beautifulhue.libs.http import Request
 
 class Portal:
     """
