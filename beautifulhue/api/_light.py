@@ -21,12 +21,11 @@ class Light:
             'all':{'service':'lights'},
             'new':{'service':'lights/new'}
         }
-
         if (isinstance(resource['which'], int)):
             resource['id'] = resource['which']
             resource['which'] = 'one'
+        if (resource['which'] == 'one'):
             services['one'] = {'service':'lights/{id}'.format(id=resource['id'])}
-        
         service = services[resource['which']]['service']
         path = 'api/{username}/{service}'.format(
                                                     username=self.user['name'],

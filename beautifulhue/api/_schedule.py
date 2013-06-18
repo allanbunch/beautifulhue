@@ -24,6 +24,7 @@ class Schedule:
         if (isinstance(resource['which'], int)):
             resource['id'] = resource['which']
             resource['which'] = 'one'
+        if (resource['which'] == 'one'):
             services['one'] = {'service':'schedules/{id}'.format(id=resource['id'])}
         
         service = services[resource['which']]['service']

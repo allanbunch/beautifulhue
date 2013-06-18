@@ -20,6 +20,7 @@ class Group:
         if (isinstance(resource['which'], int)):
             resource['id'] = resource['which']
             resource['which'] = 'one'
+        if (resource['which'] == 'one'):
             services['one'] = {'service':'groups/{id}'.format(id=resource['id'])}
         
         service = services[resource['which']]['service']
