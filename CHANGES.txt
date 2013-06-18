@@ -4,3 +4,7 @@ v0.1.0, 2013-06-08:
 v0.1.1, 2013-06-09:
 	-- Removed httplib2 dependency.
 	-- Changed version identifier variable location.
+
+v0.1.2, 2013-06-17
+	-- Fixed scope issue when making multiple GET calls from certain objects.
+	See: https://github.com/allanbunch/beautifulhue/issues/1 for more.
