@@ -157,7 +157,7 @@ resource = {
 bridge.light.update(resource)
 ```
 
-** Update a light's state.**
+**Update a light's state.**
 ```python
 # Update light #3's state.
 from beautifulhue.api import Bridge
