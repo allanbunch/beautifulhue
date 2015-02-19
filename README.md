@@ -52,6 +52,7 @@ bridge = Bridge(device={'ip':'192.168.1.14'}, user={'name':'newdeveloper'})
 
 ```
 
+For a more detailed example (including how to create the user if necessary) see the ([wiki](https://github.com/allanbunch/beautifulhue/wiki/Example:-Connect-to-the-Bridge))
 
 ###Lights
 ([official reference](http://developers.meethue.com/1_lightsapi.html))
