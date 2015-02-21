@@ -9,7 +9,7 @@ setup(
     url='https://github.com/allanbunch/beautifulhue',
     license='MIT',
     description='A Python module for the Philips Hue Lighting System API.',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     platforms="Cross Platform",
     classifiers=[
         'Development Status :: 4 - Beta',
