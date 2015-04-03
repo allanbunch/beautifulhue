@@ -40,7 +40,7 @@ python setup.py install
 ```
 
 ###Bridge
-([official reference](http://developers.meethue.com/1_lightsapi.html))
+([official reference](http://www.developers.meethue.com/documentation/lights-api))
 
 ####Instantiation:
 
@@ -55,7 +55,7 @@ bridge = Bridge(device={'ip':'192.168.1.14'}, user={'name':'newdeveloper'})
 For a more detailed example (including how to create the user if necessary) see the ([wiki](https://github.com/allanbunch/beautifulhue/wiki/Example:-Connect-to-the-Bridge))
 
 ###Lights
-([official reference](http://developers.meethue.com/1_lightsapi.html))
+([official reference](http://www.developers.meethue.com/documentation/lights-api))
 
 ####Methods:
 
@@ -175,7 +175,7 @@ bridge.light.update(resource)
 
 
 ###Groups
-([official reference](http://developers.meethue.com/2_groupsapi.html))
+([official reference](http://www.developers.meethue.com/documentation/groups-api))
 
 ####Methods:
 
@@ -240,7 +240,7 @@ bridge.group.update(resource)
 
 
 ###Schedules
-([official reference](http://developers.meethue.com/3_schedulesapi.html))
+([official reference](http://www.developers.meethue.com/documentation/schedules-api-0))
 
 ####Methods:
 
@@ -333,7 +333,7 @@ bridge.schedule.delete(resource)
 ```
 
 ###Configuration
-([official reference](http://developers.meethue.com/4_configurationapi.html))
+([official reference](http://www.developers.meethue.com/documentation/configuration-api))
 
 ####Methods:
 
@@ -398,7 +398,6 @@ bridge.config.delete(resource)
 ```
 
 ###Portal
-([official reference](http://developers.meethue.com/5_portalapi.html))
 
 ####Instantiation:
 
